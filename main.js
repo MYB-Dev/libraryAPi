@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/api/books', books);
 
-const PORT = 5000;
+let PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Api listening on http://localhost:${PORT}`);
