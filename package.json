@@ -1,0 +1,28 @@
+{
+  "name": "labraryApi",
+  "version": "1.0.0",
+  "description": "API of liberary of book",
+  "main": "main",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYB-Dev/libraryAPi.git"
+  },
+  "author": "MYB-Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MYB-Dev/libraryAPi/issues"
+  },
+  "homepage": "https://github.com/MYB-Dev/LibraryAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.2",
+    "monk": "^7.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  }
+}
